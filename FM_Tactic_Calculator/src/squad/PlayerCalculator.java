@@ -130,19 +130,19 @@ public class PlayerCalculator
 			{
 				if (avgRating < 6.0)
 					{
-						weightedAvgRating = 0.6;
+						weightedAvgRating = 0.88;
 					}
 				else if (avgRating < 6.2 && avgRating >= 6.0)
 					{
-						weightedAvgRating = 0.7;
+						weightedAvgRating = 0.91;
 					}
 				else if (avgRating < 6.4 && avgRating >= 6.2)
 					{
-						weightedAvgRating = 0.8;
+						weightedAvgRating = 0.94;
 					}
 				else if (avgRating < 6.6 && avgRating >= 6.4)
 					{
-						weightedAvgRating = 0.9;
+						weightedAvgRating = 0.97;
 					}
 				else if (avgRating < 6.8 && avgRating >= 6.6)
 					{
@@ -150,19 +150,19 @@ public class PlayerCalculator
 					}
 				else if (avgRating < 7.0 && avgRating >= 6.8)
 					{
-						weightedAvgRating = 1.1;
+						weightedAvgRating = 1.03;
 					}
 				else if (avgRating < 7.3 && avgRating >= 7.0)
 					{
-						weightedAvgRating = 1.2;
+						weightedAvgRating = 1.06;
 					}
 				else if (avgRating < 7.6 && avgRating >= 7.3)
 					{
-						weightedAvgRating = 1.3;
+						weightedAvgRating = 1.09;
 					}
 				else
 					{
-						weightedAvgRating = 1.5;
+						weightedAvgRating = 1.15;
 					}
 			}
 		
